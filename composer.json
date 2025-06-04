@@ -1,0 +1,27 @@
+{
+    "name": "suporte/monitoramento-hidrico",
+    "description": "Sistema de monitoramento Hídrico da SEMARH",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Suporte\\MonitoramentoHidrico\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elineto Souza",
+            "email": "ti@semarh.rn.gov.br"
+        },
+        {
+            "name": "Gladerson Belizio",
+            "email": "ti@semarh.rn.gov.br"
+        },
+        {
+            "name": "Rodrigo Pinheiro",
+            "email": "ti@semarh.rn.gov.br"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.9"
+    }
+}
